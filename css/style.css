@@ -43,6 +43,11 @@ h2 {
    min-height: 1px;
    margin:0 2% 20px;
  }
+
+   @media (min-width: 600px) {
+   .container {
+      width: 580px;
+   }
   
    @media (min-width: 768px) {
    .container {
