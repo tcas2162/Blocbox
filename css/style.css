@@ -398,11 +398,11 @@ h2 {
    margin: 0 auto;
    display: block;
  }
- @media (min-width: 992px) {
+  @media (min-width: 992px){
    footer{
      background-color: #7F603A;
      background-image: linear-gradient(to left,
-        #7F603A 0%, #7F603A 33.33337%, #bf9056 33.33337%, #bf9056 100%);
+        #bf9056 0%, #bf9056 33.33337%, #7F603A 33.33337%, #7F603A 100%);
      height: 100px;
    }
    footer p, footer nav ul{
@@ -410,14 +410,12 @@ h2 {
      text-align: left;
    }
    footer .right-footer-block {
-     background-color: #7F603A;
+     background-color: #bf9056;
    }
    footer .logo{
      padding: 2em 0 2em 1.5em;
    }
  }
- 
- 
 
 
 
