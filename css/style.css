@@ -47,13 +47,7 @@ h2 {
    margin:0 2% 20px;
  }
 
-   @media (min-width: 600px) {
-   .container {
-      width: 580px;
-   }
-}
-  
-   @media (min-width: 768px) {
+@media (min-width: 768px) {
    .container {
      width: 750px;
    }
@@ -78,11 +72,11 @@ h2 {
    }
  }
 
-  /* HEADER */
+ /* HEADER */
  header {
    color:#FFFFFF;
    background: #7F603A;
-   background-image: linear-gradient(206deg, #7F603A 40%, #bf9056 60%);
+   background-image: linear-gradient(206deg, #bf9056 0%, #7F603A 94%);
  }
  header nav {
    padding:1em 0;
@@ -111,9 +105,8 @@ h2 {
    text-decoration: none;
  }
  header nav ul > li.btn-outline:hover > a {
-   color:#7f6038;
+   color:#ffae00;
  }
-
   header .hero {
    text-align: center;
    display:block;
@@ -134,6 +127,7 @@ h2 {
    display: block;
    margin:3em auto 0;
  }
+
   /* BUTTONS */
  .btn {
    border-radius: 4px;
@@ -405,11 +399,17 @@ h2 {
    display: block;
  }
 
-   @media (min-width: 600px){
-   footer{
-     background-color: #bf9056;
+ /* ----------- Galaxy S5 ----------- */
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {   
+    footer{
+     background-color: #7F603A;
      background-image: linear-gradient(to left,
-        #bf9056 0%, #bf9056 33.33337%, #7f603a 33.33337%, #7f603a 100%);
+        #7F603A 0%, #7F603A 33.33337%, #bf9056 33.33337%, #bf9056 100%);
      height: 100px;
    }
    footer p, footer nav ul{
@@ -417,18 +417,24 @@ h2 {
      text-align: left;
    }
    footer .right-footer-block {
-     background-color: #bf9056;
+     background-color: #7F603A;
    }
    footer .logo{
      padding: 2em 0 2em 1.5em;
    }
  }
 
- @media (min-width: 768px){
+ /* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
    footer{
-     background-color: #bf9056;
+     background-color: #7F603A;
      background-image: linear-gradient(to left,
-        #bf9056 0%, #bf9056 33.33337%, #7f603a 33.33337%, #7f603a 100%);
+        #7F603A 0%, #7F603A 33.33337%, #bf9056 33.33337%, #bf9056 100%);
      height: 100px;
    }
    footer p, footer nav ul{
@@ -436,18 +442,18 @@ h2 {
      text-align: left;
    }
    footer .right-footer-block {
-     background-color: #bf9056;
+     background-color: #7F603A;
    }
    footer .logo{
      padding: 2em 0 2em 1.5em;
    }
-  }
+ } 
 
-  @media (min-width: 992px){
-   footer{
-     background-color: #bf9056;
+ @media (min-width: 768px) {
+  footer{
+     background-color: #7F603A;
      background-image: linear-gradient(to left,
-        #bf9056 0%, #bf9056 33.33337%, #7f603a 33.33337%, #7f603a 100%);
+        #7F603A 0%, #7F603A 33.33337%, #bf9056 33.33337%, #bf9056 100%);
      height: 100px;
    }
    footer p, footer nav ul{
@@ -455,18 +461,38 @@ h2 {
      text-align: left;
    }
    footer .right-footer-block {
-     background-color: #bf9056;
+     background-color: #7F603A;
+   }
+   footer .logo{
+     padding: 2em 0 2em 1.5em;
+   }
+
+ }
+
+ @media (min-width: 992px) {
+   footer{
+     background-color: #7F603A;
+     background-image: linear-gradient(to left,
+        #7F603A 0%, #7F603A 33.33337%, #bf9056 33.33337%, #bf9056 100%);
+     height: 100px;
+   }
+   footer p, footer nav ul{
+     padding: 2em 0;
+     text-align: left;
+   }
+   footer .right-footer-block {
+     background-color: #7F603A;
    }
    footer .logo{
      padding: 2em 0 2em 1.5em;
    }
  }
-
- @media (min-width: 1200px){
+ 
+ @media (min-width: 1200px) {
    footer{
-     background-color: #bf9056;
+     background-color: #7F603A;
      background-image: linear-gradient(to left,
-        #bf9056 0%, #bf9056 33.33337%, #7f603a 33.33337%, #7f603a 100%);
+        #7F603A 0%, #7F603A 33.33337%, #bf9056 33.33337%, #bf9056 100%);
      height: 100px;
    }
    footer p, footer nav ul{
@@ -474,10 +500,14 @@ h2 {
      text-align: left;
    }
    footer .right-footer-block {
-     background-color: #bf9056;
+     background-color: #7F603A;
    }
    footer .logo{
      padding: 2em 0 2em 1.5em;
    }
  }
+ 
+
+
+
 
