@@ -468,8 +468,9 @@ h2 {
    background-color: transparent;
  }
  footer .logo{
-     padding: 2em 0 1em em;
+     padding: 2em 0 1em;
    }
+ }
 
  @media (min-width: 600px){ 
   footer{
@@ -500,7 +501,7 @@ h2 {
    background-color: transparent;
  }
  footer .logo{
-     padding: 2em 0 1em em;
+     padding: 2em 0 1em;
    }
  }
 
@@ -533,7 +534,7 @@ h2 {
    background-color: transparent;
  }
  footer .logo{
-     padding: 2em 0 1.5em em;
+     padding: 2em 0 1.5em;
    }
  }
 
