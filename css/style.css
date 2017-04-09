@@ -468,7 +468,7 @@ h2 {
    background-color: transparent;
  }
  footer .logo{
-     padding: 0.1em 0 1em;
+     padding: 0.1em 0 1em, 0em;
    }
  }
 
@@ -501,7 +501,7 @@ h2 {
    background-color: transparent;
  }
  footer .logo{
-     padding: 0.1em 0 1em;
+     padding: 0.1em 0 1em, 0em;
    }
  }
 
@@ -534,7 +534,7 @@ h2 {
    background-color: transparent;
  }
  footer .logo{
-     padding: 0.1em 0 1.5em;
+     padding: 0.1em 0 1.5em 0em;
    }
  }
 
