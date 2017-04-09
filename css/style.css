@@ -401,7 +401,7 @@ h2 {
    background-color: transparent;
  }
  footer .logo{
-   padding: 0.10em 0;
+   padding: 0.15em 0;
    margin: 0 auto;
    display: block;
  }
@@ -435,10 +435,8 @@ h2 {
    background-color: transparent;
  }
  footer .logo{
-   padding: 0.10em 0;
-   margin: 0 auto;
-   display: block;
- }
+     padding: 2em 0 1em em;
+   }
 }
 
  @media (min-width: 600px){ 
@@ -470,48 +468,54 @@ h2 {
    background-color: transparent;
  }
  footer .logo{
-   padding: 0.10em 0;
-   margin: 0 auto;
-   display: block;
- }
-}
-
-  @media (min-width: 768px) {
-    footer{
-     background-color: #7F603A;
-     background-image: linear-gradient(to left,
-        #7F603A 0%, #7F603A 33.33337%, #BF9056 33.33337%, #BF9056 100%);
-     height: 90px;
+     padding: 2em 0 1em em;
    }
-   footer p, footer nav ul {
+ }
+
+@media (min-width: 768px) {
+  footer{
+   background-color: #7F603A;
+   background-image: linear-gradient(to top,
+      #7F603A 0%, #7F603A 50%, #BF9056 50%, #BF9056 100%);
+   color: #FFFFFF;
+   height: 150px;
+   position: relative;
+   overflow: hidden;
+   z-index: 0;
+ }
+ footer p, footer nav ul {
    font-size:14px;
    font-weight:100;
    text-align: center;
    margin: 1px auto 0;
-   padding: 2em 0;
+ }
+ footer nav ul li {
+   list-style-type: none;
+   display: inline;
+ }
+ footer nav ul li a {
+   color:#FFFFFF;
+   text-decoration: none;
+ }
+ footer .right-footer-block {
+   background-color: transparent;
+ }
+ footer .logo{
+     padding: 2em 0 1.5em em;
    }
-   footer .right-footer-block {
-     background-color: #7F603A;
-   }
-   footer .logo{
-     padding: 2em 0 2em 1.5em;
-   }
-  }
+ }
+
 
   @media (min-width: 992px){
     footer{
      background-color: #7F603A;
      background-image: linear-gradient(to left,
         #7F603A 0%, #7F603A 33.33337%, #BF9056 33.33337%, #BF9056 100%);
-     height: 90px;
+     height: 80px;
    }
    footer p, footer nav ul{
-   font-size:14px;
-   font-weight:100;
-   text-align: center;
-   margin: 1px auto 0;
-   padding: 2em 0;
-   }
+     padding: 2em 0;
+     text-align: left;
    }
    footer .right-footer-block {
      background-color: #7F603A;
@@ -526,7 +530,7 @@ h2 {
      background-color: #7F603A;
      background-image: linear-gradient(to left,
         #7F603A 0%, #7F603A 33.33337%, #BF9056 33.33337%, #BF9056 100%);
-     height: 90px;
+     height: 80px;
    }
    footer p, footer nav ul {
    font-size:14px;
