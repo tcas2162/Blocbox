@@ -583,9 +583,12 @@ h2 {
 
  /* DASHBOARD */
  .dashboard {
-   background:#7F603A;
+   background:#bf9056;
  }
 
+ .dashboard {
+  background-color: #d9c7b3;
+ }
  .left-nav a:active { 
     background-color: #ffae00;
 }
