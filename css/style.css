@@ -668,9 +668,9 @@ h2 {
    }
  }
 
- .left-nav .site-logo {
-   padding:10px 0;
-   background:#7F603A;
+ .left-nav .Site-logo {
+   padding:-20px 0;
+   background:#40301D;
    display:block;
    text-align: center;
  }
