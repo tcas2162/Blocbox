@@ -416,7 +416,7 @@ footer .logo{
 }
 @media (min-width: 992px){
   footer{
-   background-color: #3498DB;
+   background-color: #7F603A;
    background-image: linear-gradient(to left,
     #7F603A 0%, #7F603A 33.33337%, #BF9056 33.33337%, #BF9056 100%);
    height: 100px;
@@ -434,24 +434,20 @@ footer .logo{
   footer .logo{
     padding: 2em 0 2em 1.5em;
   }
-
+}
 
  /* DASHBOARD */
- .dashboard {
-   background:#bf9056;
- }
-
- .dashboard {
+  
+  .dashboard {
   background-color: #d9c7b3;
  }
  .left-nav a:active { 
     background-color: #ffae00;
-}
-
+ }
  .left-nav {
-  height: 100%;
-  width: 280px;
-  position: absolute;
+   height: 100%;
+   width:280px;
+   position:absolute;
    -webkit-transition: all 0.3s ease-in-out;
    -moz-transition: all 0.3s ease-in-out;
    -o-transition: all 0.3s ease-in-out;
@@ -461,12 +457,11 @@ footer .logo{
      -o-transform: translate(-280px,0); /** Opera **/
      -moz-transform: translate(-280px,0); /** Firefox **/
  }
-
- left-nav.open {
+ .left-nav.open {
    display:block;
    width:280px;
    background: #7F603A;
-   background-image: linear-gradient(206deg, #bf9056 0%, #7F603A 94%);
+   background-image: linear-gradient(206deg, #BF9056 0%, #7F603A 94%);
    -webkit-transition: all 0.3s ease-in-out;
    -moz-transition: all 0.3s ease-in-out;
    -o-transition: all 0.3s ease-in-out;
@@ -477,11 +472,10 @@ footer .logo{
      -moz-transform: translate(0,0); /** Firefox **/
      z-index: 100;
  }
-
  .hamburger {
    position:absolute;
    z-index: 1000;
-   background:#bf9056;
+   background:#40301D;
    color:#FFF;
    text-decoration: none;
    font-size: 22px;
@@ -490,13 +484,12 @@ footer .logo{
    left: 5px;
    top: 15px;
  }
-
-  @media (min-width:992px) {
+ @media (min-width:992px) {
    .left-nav {
      height: 100vh;
      width:14.66666667%;
      color:#FFFFFF;
-     background: #7F603A;
+     background: #7f603a;
      background-image: linear-gradient(206deg, #bf9056 0%, #7F603A 94%);
      float:left;
      position: fixed;
@@ -506,7 +499,6 @@ footer .logo{
      -o-transform: translate(0,0); /** Opera **/
      -moz-transform: translate(0,0); /** Firefox **/
    }
-
    .left-nav.open {
      width:14.66666667%;
      transform: translate(0,0);
@@ -514,14 +506,13 @@ footer .logo{
      -o-transform: translate(0,0); /** Opera **/
      -moz-transform: translate(0,0); /** Firefox **/
    }
-
    .hamburger {
      display:none;
    }
- 
+ }
 
  .left-nav .site-logo {
-   padding: 20px 0px;
+   padding: 20px 0;
    background:#40301D;
    display:block;
    text-align: center;
@@ -558,7 +549,7 @@ footer .logo{
   /* LEFT NAVBAR SETTINGS */
  .left-nav .settings {
    position:absolute;
-   background:#40301d;
+   background:#40301D;
    width:100%;
    bottom:0;
    left:0;
@@ -627,20 +618,20 @@ footer .logo{
  }
 
  /* Larger Mobile Devices */
-@media (min-width: 460px) {
-  .content {
-    padding: 1.5em 1%;
-    float: right;
-    width:90%;
-    position: relative;
-  }
-  .content-item {
-    width: 46%;
-    margin:0 2% 25px;
-    float: left;
-    display: block;
-  }
-}
+ @media (min-width:460px) {
+   .content {
+     padding:1.5em 1%;
+     float:right;
+     width:90%;
+     position: relative;
+   }
+   .content-item {
+     width:46%;
+     margin:0 2% 25px;
+     float:left;
+     display:block;
+   }
+ }
 /* Tablets */
  @media (min-width:768px) {
    .content {
@@ -657,7 +648,6 @@ footer .logo{
      margin:0 1% 25px;
    }
  }
- 
 /* Laptops and Desktops */
  @media (min-width:992px) {
    .content {
@@ -711,3 +701,10 @@ footer .logo{
 
 
 
+
+
+
+
+
+
+ 
