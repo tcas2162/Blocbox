@@ -34,7 +34,7 @@
   display: block;
   width: 0;
   z-index: 1;
-  bottom: -12px;
+  top: 8px;
   right: 10px;
  }
  .dropit .dropit-open .dropit-submenu li {
@@ -61,3 +61,4 @@
     padding: 15px;
     min-width: 100px;
   }
+
